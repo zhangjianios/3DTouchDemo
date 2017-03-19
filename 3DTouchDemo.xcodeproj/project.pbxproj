@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0245FA4C1E7E3472007C72C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA4B1E7E3472007C72C7 /* main.m */; };
-		0245FA4F1E7E3472007C72C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA4E1E7E3472007C72C7 /* AppDelegate.m */; };
 		0245FA521E7E3472007C72C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA511E7E3472007C72C7 /* ViewController.m */; };
 		0245FA551E7E3472007C72C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0245FA531E7E3472007C72C7 /* Main.storyboard */; };
 		0245FA571E7E3472007C72C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0245FA561E7E3472007C72C7 /* Assets.xcassets */; };
 		0245FA5A1E7E3472007C72C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0245FA581E7E3472007C72C7 /* LaunchScreen.storyboard */; };
 		0245FA651E7E3472007C72C7 /* _DTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA641E7E3472007C72C7 /* _DTouchDemoTests.m */; };
 		0245FA701E7E3472007C72C7 /* _DTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA6F1E7E3472007C72C7 /* _DTouchDemoUITests.m */; };
+		0245FA7D1E7E3B2C007C72C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA4E1E7E3472007C72C7 /* AppDelegate.m */; };
+		0245FA801E7E40FB007C72C7 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0245FA7F1E7E40FB007C72C7 /* ZJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0245FA6B1E7E3472007C72C7 /* 3DTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0245FA6F1E7E3472007C72C7 /* _DTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchDemoUITests.m; sourceTree = "<group>"; };
 		0245FA711E7E3472007C72C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0245FA7E1E7E40FB007C72C7 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		0245FA7F1E7E40FB007C72C7 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				0245FA501E7E3472007C72C7 /* ViewController.h */,
 				0245FA511E7E3472007C72C7 /* ViewController.m */,
 				0245FA531E7E3472007C72C7 /* Main.storyboard */,
+				0245FA7E1E7E40FB007C72C7 /* ZJViewController.h */,
+				0245FA7F1E7E40FB007C72C7 /* ZJViewController.m */,
 				0245FA561E7E3472007C72C7 /* Assets.xcassets */,
 				0245FA581E7E3472007C72C7 /* LaunchScreen.storyboard */,
 				0245FA5B1E7E3472007C72C7 /* Info.plist */,
@@ -276,9 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0245FA801E7E40FB007C72C7 /* ZJViewController.m in Sources */,
 				0245FA521E7E3472007C72C7 /* ViewController.m in Sources */,
-				0245FA4F1E7E3472007C72C7 /* AppDelegate.m in Sources */,
 				0245FA4C1E7E3472007C72C7 /* main.m in Sources */,
+				0245FA7D1E7E3B2C007C72C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
